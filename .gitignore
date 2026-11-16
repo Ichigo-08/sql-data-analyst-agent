@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+data/*.db
+data/*.sqlite
+exports/
+.DS_Store
+
+# Local databases and connection profile metadata
+data/*.db
+data/*.sqlite
+data/connection_profiles.json
+data/uploaded_databases/
+.env.*
+!.env.example
